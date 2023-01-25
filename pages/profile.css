@@ -1,0 +1,27 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/roboto.css');
+
+
+@import url('../blocks/page/page.css');
+
+
+@import url('../blocks/aside/aside.css');
+@import url('../blocks/aside/__logo/aside__logo.css');
+@import url('../blocks/aside/__link/aside__link.css');
+@import url('../blocks/aside/__link-img/aside__link-img.css');
+
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__heading/content__heading.css');
+@import url('../blocks/content/__profile-icon/content__profile-icon.css');
+
+
+@import url('../blocks/profile/profile.css');
+@import url('../blocks/profile/__icon/profile__icon.css');
+@import url('../blocks/profile/__info-container/profile__info-container.css');
+@import url('../blocks/profile/__labels/profile__labels.css');
+@import url('../blocks/profile/__label/profile__label.css');
+@import url('../blocks/profile/__info/profile__info.css');
+@import url('../blocks/profile/__info-content/profile__info-content.css');
+@import url('../blocks/profile/__logout/profile__logout.css');
+

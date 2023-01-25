@@ -1,0 +1,11 @@
+.auth-window__forgot {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #82879F;
+    text-decoration: none;
+}
+
+.auth-window__forgot>span {
+    color: #000000;
+}

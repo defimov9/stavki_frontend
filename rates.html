@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/rates.css">
+    <title>Ставки</title>
+</head>
+<body class="page">  
+    <aside class="aside">
+        <div class="aside__logo"></div>
+        <a href="calculation.html" class="aside__link">
+            <img src="images/usd.svg" alt="доллар" class="aside__link-img">
+            Расчет
+        </a>
+        <a href="rates.html" class="aside__link aside__link_active">
+            <img src="images/rates-black.svg" alt="ставки" class="aside__link-img">
+            Ставки
+        </a>
+        <a href="requests.html" class="aside__link">
+            <img src="images/requests.svg" alt="заявки" class="aside__link-img">
+            Заявки
+        </a>
+    </aside>
+    <main class="content">
+        <h1 class="content__heading">Ставки</h1>
+        <a href="profile.html" class="content__link">
+            <img class="content__profile-icon" src="images/free-icon-font-user-3917711 1.svg" alt="иконка пользователя">
+        </a>
+        <div class="rates">
+            <button class="rates__button" id="cityButton">Город</button>
+            <button class="rates__button" id="nearIntercityButton">Ближний межгород</button>
+            <button class="rates__button" id="intercityButton">Межгород</button>
+        </div>
+        <div class="rates__table">
+            <button class="request__back request__back_rates">Назад</button>
+            <div class="requests__search">
+                <input class="requests__search-field form__input" type="text" name="search" id="search"
+                    placeholder="Поиск по городу">
+            </div>
+            <div class="table__controls-container table__controls-container_rates">
+                <button class="table__control table__control_previous" disabled></button>
+                <p class="table__page"></p>
+                <button class="table__control table__control_next"></button>
+            </div>
+            <table class="table">
+                <thead class="table__heading-row">
+                    <th class="table__content table__content_first table__heading"></th>
+                    <th class="table__content table__heading">20 ф до 24 т, руб. (3&nbsp;часа)</th>
+                    <th class="table__content table__heading">40 ф до 24 т, руб. (4&nbsp;часа)</th>
+                    <th class="table__content table__heading">20/40 ф тяж, руб.</th>
+                </thead>
+                <tbody class="table__body">
+
+                </tbody>
+            </table>
+            <p class="nothing-to-show">Ничего не нашлось</p>
+        </div>
+    </main>
+    <script src="scripts/rates/rates.js"></script>
+</body>
+</html>

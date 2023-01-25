@@ -1,0 +1,18 @@
+.request__back {
+    max-width: fit-content;
+    padding: 3px 3px;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px; 
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    border-bottom: 1px solid #000;
+}
+
+.request__back:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,11 @@
+.requests {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1024px;
+}
+
+/* .requests:last-child {
+    margin-top: -15px;
+} */

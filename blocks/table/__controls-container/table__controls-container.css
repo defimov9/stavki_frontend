@@ -1,0 +1,6 @@
+.table__controls-container {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 20px 0;
+}

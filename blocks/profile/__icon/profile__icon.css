@@ -1,0 +1,11 @@
+.profile__icon {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    padding: 6px;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #D2D2D2 !important;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.nothing-to-show {
+    box-sizing: border-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1024px;
+    height: 150px;
+    border: 1px solid #82879F;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #82879F;
+}

@@ -1,0 +1,30 @@
+.request__status {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 141px;
+    height: 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.request__status:has(> .request__created:checked) {
+    background-color: #FF3D3D;
+}
+
+.request__status:has(> .request__working:checked) {
+    background-color: #FF8E3D;
+}
+
+.request__status:has(> .request__done:checked) {
+    background-color: #68C76C;
+}
+
+
+option {
+    background: #FFFFFF;
+    color: #000000;
+}

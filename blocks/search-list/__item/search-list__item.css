@@ -1,0 +1,20 @@
+.search-list__item {
+    max-width: 320px;
+    /* background-color: #f8f8f8; */
+    /* border: 2px solid #cacaca; */
+    /* border-radius: 5px; */
+    border-bottom: 1px solid #82879F;
+    padding: 7px 15px;
+    transition: background-color 0.2s linear;
+    font-size: 18px;
+    line-height: 21px;
+    color: #82879F;
+}
+
+.search-list__item:hover {
+    background-color: #E7E9F2;
+}
+
+.search-list__item:last-child {
+    border-bottom: none;
+}

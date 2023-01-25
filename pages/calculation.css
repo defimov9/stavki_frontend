@@ -1,0 +1,49 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/roboto.css');
+
+@import url('../blocks/page/page.css');
+
+
+@import url('../blocks/aside/aside.css');
+@import url('../blocks/aside/__logo/aside__logo.css');
+@import url('../blocks/aside/__link/aside__link.css');
+@import url('../blocks/aside/__link/_active/aside__link_active.css');
+@import url('../blocks/aside/__link-img/aside__link-img.css');
+
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__heading/content__heading.css');
+@import url('../blocks/content/__profile-icon/content__profile-icon.css');
+
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__label/form__label.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__textarea/form__textarea.css');
+@import url('../blocks/form/__error/form__error.css');
+
+@import url('../blocks/search-list/search-list.css');
+@import url('../blocks/search-list/__item/search-list__item.css');
+
+
+@import url('../blocks/calculation/calculation.css');
+@import url('../blocks/calculation/__form/calculation__form.css');
+@import url('../blocks/calculation/__button/calculation__button.css');
+
+
+@import url('../blocks/total/total.css');
+@import url('../blocks/total/__heading/total__heading.css');
+@import url('../blocks/total/__container/total__container.css');
+@import url('../blocks/total/__label/total__label.css');
+@import url('../blocks/total/__price/total__price.css');
+@import url('../blocks/total/__submit/total__submit.css');
+@import url('../blocks/total/__submit/_active/total__submit_active.css');
+
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__content/popup__content.css');
+@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/popup/__text/popup__text.css');
+@import url('../blocks/popup/__submit/popup__submit.css');
+

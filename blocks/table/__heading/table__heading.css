@@ -1,0 +1,16 @@
+.table__heading {
+    border-top: 1px solid #82879F;
+    border-right: 1px solid #82879F;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    display: table-cell;
+}
+
+.table__heading:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.table__heading:last-child {
+    border-radius: 0px 10px 0px 0px;
+}

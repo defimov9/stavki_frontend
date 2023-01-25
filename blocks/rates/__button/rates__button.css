@@ -1,0 +1,15 @@
+.rates__button {
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: none;
+    background-color: #FFFFFF;
+    max-width: fit-content;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
