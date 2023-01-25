@@ -1,0 +1,16 @@
+.table__row {
+    transition: all 0.15s linear;
+    height: 60px;
+}
+
+.table__row:hover {
+    background: rgba(217, 217, 217, 0.40);;
+}
+
+.table__row:last-child .table__content:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.table__row:last-child .table__content:last-child {
+    border-radius: 0 0 10px 0;
+}

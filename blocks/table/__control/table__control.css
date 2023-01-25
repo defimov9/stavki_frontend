@@ -1,0 +1,16 @@
+.table__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 31px;
+    border: none;
+    background-color: #ffffff;
+    background-image: url('../../../images/arrow-button.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.table__control:disabled {
+    opacity: 0.6;
+}

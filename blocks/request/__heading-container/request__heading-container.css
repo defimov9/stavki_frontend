@@ -1,0 +1,5 @@
+.request__heading-container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}

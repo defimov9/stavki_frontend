@@ -1,0 +1,5 @@
+.total__container {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}

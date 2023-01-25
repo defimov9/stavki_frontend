@@ -1,0 +1,47 @@
+.form__input {
+    box-sizing: border-box;
+    width: 320px;
+    border: 1px solid #E7E9F2;
+    border-radius: 5px;
+    height: 49px;
+    padding: 0 15px 0 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    transition: border 0.2s linear;
+    outline: none;
+}
+
+.form__input:focus {
+    border: 1px solid #000000;
+}
+
+.password-control {
+    position: absolute;
+	top: 43px;
+	right: 15px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url('../../../images/free-icon-font-eye-3917112\ 1.svg') 0 0 no-repeat;
+}
+
+.form__input[type="number"]::-webkit-outer-spin-button,
+.form__input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.form__input[type='number'],
+.form__input[type="number"]:hover,
+.form__input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.form__input:invalid {
+    border: 1px solid #FF3D3D;
+}
+

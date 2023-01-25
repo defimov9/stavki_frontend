@@ -1,0 +1,13 @@
+.table__status {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 127px;
+    height: 36px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}

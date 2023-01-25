@@ -1,0 +1,5 @@
+.auth-window__switches {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}

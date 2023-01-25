@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/requests.css">
+    <title>Мои заявки</title>
+</head>
+
+<body class="page">
+    <aside class="aside">
+        <div class="aside__logo"></div>
+        <a href="calculation.html" class="aside__link">
+            <img src="images/usd.svg" alt="доллар" class="aside__link-img">
+            Расчет
+        </a>
+        <a href="rates.html" class="aside__link">
+            <img src="images/rates.svg" alt="ставки" class="aside__link-img">
+            Ставки
+        </a>
+        <a href="#" class="aside__link aside__link_active">
+            <img src="images/requests-black.svg" alt="заявки" class="aside__link-img">
+            Заявки
+        </a>
+    </aside>
+    <main class="content">
+        <div class="content__table">
+            <h1 class="content__heading">Заявки</h1>
+            <a href="profile.html" class="content__link">
+                <img class="content__profile-icon" src="images/free-icon-font-user-3917711 1.svg"
+                    alt="иконка пользователя">
+            </a>
+            <div class="requests">
+                <div class="requests__search">
+                    <input class="requests__search-field form__input" type="text" name="search" id="search"
+                        placeholder="Поиск по номеру или организации">
+                </div>
+                <div class="table__controls-container">
+                    <button class="table__control table__control_previous" disabled></button>
+                    <p class="table__page"></p>
+                    <button class="table__control table__control_next"></button>
+                </div>
+                <table class="table">
+                    <thead class="table__heading-row">
+                        <th class="table__content table__heading">№</th>
+                        <th class="table__content table__heading">Статус</th>
+                        <th class="table__content table__heading">Клиент</th>
+                        <th class="table__content table__heading">Откуда</th>
+                        <th class="table__content table__heading">Куда</th>
+                        <th class="table__content table__heading">Ответственный</th>
+                    </thead>
+                    <tbody class="table__body">
+
+                    </tbody>
+                </table>
+                <p class="nothing-to-show nothing-to-show_requests">Ничего не нашлось</p>
+            </div>
+        </div>
+        <div class="content__request">
+            <a href="profile.html" class="content__link">
+                <img class="content__profile-icon" src="images/free-icon-font-user-3917711 1.svg"
+                    alt="иконка пользователя">
+            </a>
+            <div class="request">
+                <div class="request__heading-container">
+                    <div class="request__first-column">
+                        <button class="request__back">Назад</button>
+                        <h1 class="content__heading">Заявка №12</h1>
+                        <p class="request__date"></p>
+                    </div>
+                    <div class="request__second-column">
+                        <select name="status" id="" class="request__status">
+                            <option value="0" class="request__created">Создана</option>
+                            <option value="1" class="request__working">В работе</option>
+                            <option value="2" class="request__done">Выполнена</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="request__info-container">
+                    <div class="request__labels">
+                        <p class="request__label">ФИО клиента</p>
+                        <p class="request__label">Телефон</p>
+                        <p class="request__label">Название организации</p>
+                        <p class="request__label">Откуда</p>
+                        <p class="request__label">Куда</p>
+                        <p class="request__label">Вид контейнера</p>
+                        <p class="request__label">Вес груза</p>
+                        <p class="request__label">Стоимость</p>
+                        <p class="request__label">Ответственный</p>
+                        <p class="request__label">Комментарий</p>
+                    </div>
+                    <div class="request__info-column">
+                        <p class="request__info" id="fullname"></p>
+                        <p class="request__info" id="phone"></p>
+                        <p class="request__info" id="organization"></p>
+                        <p class="request__info" id="from"></p>
+                        <p class="request__info" id="to"></p>
+                        <p class="request__info" id="container"></p>
+                        <p class="request__info" id="weight"></p>
+                        <p class="request__info" id="price"></p>
+                        <p class="request__info" id="responsible"></p>
+                        <p class="request__info" id="comment"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/requests/requests.js"></script>
+</body>
+
+</html>

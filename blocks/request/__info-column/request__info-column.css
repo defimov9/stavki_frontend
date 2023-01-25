@@ -1,0 +1,6 @@
+.request__info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+}

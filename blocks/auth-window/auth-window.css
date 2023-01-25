@@ -1,0 +1,14 @@
+.auth-window {
+    min-width: 530px;
+    height: 530px; 
+    block-size: fit-content;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 0 0 0 176px;
+    padding: 80px 104px 80px 104px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    overflow: hidden;
+}

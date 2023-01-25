@@ -1,0 +1,21 @@
+.profile__logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 135px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    transition: background 0.2s linear;
+    cursor: pointer;
+}
+
+.profile__logout:hover {
+    background-color: #ebebeb;
+}

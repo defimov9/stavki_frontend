@@ -1,0 +1,9 @@
+.login-page {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}

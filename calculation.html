@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/calculation.css">
+    <title>Расчет</title>
+</head>
+
+<body class="page">
+    <aside class="aside">
+        <div class="aside__logo"></div>
+        <a href="#" class="aside__link aside__link_active">
+            <img src="images/usd-black.svg" alt="доллар" class="aside__link-img">
+            Расчет
+        </a>
+        <a href="rates.html" class="aside__link">
+            <img src="images/rates.svg" alt="ставки" class="aside__link-img">
+            Ставки
+        </a>
+        <a href="requests.html" class="aside__link">
+            <img src="images/requests.svg" alt="заявки" class="aside__link-img">
+            Заявки
+        </a>
+    </aside>
+    <main class="content">
+        <h1 class="content__heading">Расчет</h1>
+        <a href="profile.html" class="content__link">
+            <img class="content__profile-icon" src="images/free-icon-font-user-3917711 1.svg" alt="иконка пользователя">
+        </a>
+        <div class="calculation">
+            <form action="" class="form calculation__form">
+                <label class="form__label">
+                    <div><span>*</span> Вид контейнера</div>
+                    <select name="container-type" class="form__input">
+                        <option selected disabled hidden value=" "></option>
+                        <option value="20">20 футов</option>
+                        <option value="40">40 футов</option>
+                    </select>
+                </label>
+                <label class="form__label">
+                    <div><span>*</span> Вес груза (т)</div>
+                    <input class="form__input" type="number" name="weight" id="weight">
+                    <p class="form__error" id="error-weight"></p>
+                </label>
+                <label class="form__label">
+                    <div><span>*</span> Пункт отправления</div>
+                    <input name="city-from" class="form__input" value="Екатеринбург" disabled>
+                </label>
+                <label class="form__label">
+                    <div><span>*</span> Пункт назначения</div>
+                    <input type="text" name="city-to" class="form__input" id="city">
+                    <ul class="search-list">
+
+                    </ul>
+                </label>
+                <label class="form__label">
+                    <div><span>*</span> Дата отправления</div>
+                    <input class="form__input" type="date" name="date" id="date">
+                    <p class="form__error" id="error-date"></p>
+                </label>
+                <button type="submit" class="form__button calculation__button" disabled>Рассчитать</button>
+            </form>
+            <div class="total">
+                <h2 class="total__heading">Стоимость</h2>
+                <div class="total__container">
+                    <p class="total__label">Итого: </p>
+                    <p class="total__price">—</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/calculation/calculation.js"></script>
+    <script src="scripts/calculation/validation.js"></script>
+</body>
+
+</html>

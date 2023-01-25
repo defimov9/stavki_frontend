@@ -1,0 +1,16 @@
+.table__content {
+    box-sizing: border-box;
+    padding: 0 28px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-right: 1px solid #82879F;
+    border-bottom: 1px solid #82879F;
+    overflow: hidden;
+    min-height: 498px;
+}
+
+.table__content:first-child {
+    border-left: 1px solid #82879F;
+}

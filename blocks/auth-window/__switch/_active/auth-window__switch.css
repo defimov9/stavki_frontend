@@ -1,0 +1,5 @@
+.auth-window__switch_active {
+    color: #000000;
+    border-bottom: 3px solid black;
+    display: flex;
+}

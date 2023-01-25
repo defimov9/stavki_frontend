@@ -1,0 +1,10 @@
+.aside__logo {
+    width: 100%;
+    height: 113px;
+    background-image: url('../../../images/tetra_1.svg');
+    background-position: center;
+    background-size: 128px 64px;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px #82879F;
+    margin-bottom: 20px;
+}

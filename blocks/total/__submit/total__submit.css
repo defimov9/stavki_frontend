@@ -1,0 +1,15 @@
+.total__submit {
+    margin-top: 42px;
+    background: #FB999D;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+.total__submit:disabled {
+    opacity: 0.8;
+    cursor: auto;
+}
+
+.total__submit:disabled:hover {
+    opacity: 0.8;
+}

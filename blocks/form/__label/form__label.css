@@ -1,0 +1,14 @@
+.form__label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #82879F;
+}
+
+.form__label span {
+    color: red;
+}

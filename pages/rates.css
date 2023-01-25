@@ -1,0 +1,52 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/roboto.css');
+
+
+@import url('../blocks/page/page.css');
+
+
+@import url('../blocks/aside/aside.css');
+@import url('../blocks/aside/__logo/aside__logo.css');
+@import url('../blocks/aside/__link/aside__link.css');
+@import url('../blocks/aside/__link-img/aside__link-img.css');
+@import url('../blocks/aside/__link/_active/aside__link_active.css');
+
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__heading/content__heading.css');
+@import url('../blocks/content/__profile-icon/content__profile-icon.css');
+
+
+@import url('../blocks/rates/rates.css');
+@import url('../blocks/rates/__button/rates__button.css');
+@import url('../blocks/rates/__table/rates__table.css');
+
+
+@import url('../blocks/requests/__search/requests__search.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/requests/__search-field/requests__search-field.css');
+
+
+@import url('../blocks/table/table.css');
+@import url('../blocks/table/__heading-row/table__heading-row.css');
+@import url('../blocks/table/__content/table__content.css');
+@import url('../blocks/table/__content/_first/table__content_first.css');
+
+@import url('../blocks/table/__heading/table__heading.css');
+@import url('../blocks/table/__row/table__row.css');
+@import url('../blocks/table/__status/table__status.css');
+
+@import url('../blocks/table/__status/_created/table__status_created.css');
+@import url('../blocks/table/__status/_working/table__status_working.css');
+@import url('../blocks/table/__status/_done/table__status_done.css');
+@import url('../blocks/table/__page/table__page.css');
+
+
+@import url('../blocks/table/__controls-container/table__controls-container.css');
+@import url('../blocks/table/__control/_previous/table__control_previous.css');
+@import url('../blocks/table/__control/table__control.css');
+@import url('../blocks/table/__controls-container/_rates/table__controls-container_rates.css');
+
+@import url('../blocks/nothing-to-show/nothing-to-show.css');
+@import url('../blocks/request/__back/request__back.css');
+@import url('../blocks/request/__back/_rates/request__back_rates.css');

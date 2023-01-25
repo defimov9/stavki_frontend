@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Stavki</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="auth-window">
+            <div class="auth-window__switches">
+                <button class="auth-window__switch" id="registration">Регистрация</button>
+                <button class="auth-window__switch auth-window__switch_active" id="login">Вход</button>
+            </div>
+            <div class="login">
+                <form action="" class="form">
+                    <label class="form__label">
+                        Логин
+                        <input class="form__input" type="email" name="login-email" id="login-email">
+                    </label>
+                    <label class="form__label">
+                        Пароль
+                        <input class="form__input" type="password" name="login-password" id="login-password">
+                        <a href="#" class="password-control password-in-login"></a>
+                    </label>
+                </form>
+                <a href="#" class="auth-window__forgot">Забыли пароль? <span>Сбросить</span></a>
+                <button class="form__button">Войти</button>
+            </div>
+            <div class="registration">
+                <form action="" class="form" id="registration-form">
+                    <label class="form__label">
+                        <div><span>*</span> ФИО</div>
+                        <input class="form__input" type="text" name="full-name" id="full-name">
+                        <p class="form__error" id="error-fullname"></p>
+                    </label>
+                    <label class="form__label">
+                        <div><span>*</span> Телефон</div>
+                        <input class="form__input" type="phone" name="phone" id="phone">
+                        <p class="form__error" id="error-phone"></p>
+                    </label>
+                    <label class="form__label">
+                        <div><span>*</span> Название организации</div>
+                        <input class="form__input" type="text" name="organization" id="organization">
+                    </label>
+                    <label class="form__label">
+                        <div><span>*</span> ИНН организации</div>
+                        <input class="form__input" type="text" name="inn" id="inn">
+                        <p class="form__error" id="error-inn"></p>
+                    </label>
+                    <label class="form__label">
+                        <div><span>*</span> Придумайте пароль</div>
+                        <input class="form__input form__password" type="password" name="password" id="register-password">
+                        <a href="#" class="password-control password-in-register"></a>
+                    </label>
+                    <label class="form__label">
+                        <div><span>*</span> Повторите пароль</div>
+                        <input class="form__input form__password" type="password" name="password-again" id="register-password-repeat" disabled>
+                        <a href="#" class="password-control password-repeat"></a>
+                        <p class="form__error" id="error-password"></p>
+                    </label>
+                    <input type="submit" value="Зарегистрироваться" class="form__button" id="submitBtn" disabled>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/registration/switch.js"></script>
+    <script src="scripts/registration/show-pass.js"></script>
+    <script src="scripts/registration/validations.js"></script>
+</body>
+</html>

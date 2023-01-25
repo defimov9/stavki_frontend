@@ -1,0 +1,12 @@
+.show {
+    animation: show 0.6s linear;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

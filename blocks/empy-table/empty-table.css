@@ -1,0 +1,14 @@
+.empty-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 418px;
+    border: 1px solid #82879F;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    margin-top: -23px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #82879F;
+}
