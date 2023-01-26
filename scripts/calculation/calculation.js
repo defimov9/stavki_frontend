@@ -36,8 +36,8 @@ let checkDate = () => {
 const checkWeight = () => {
     const error = document.querySelector('#error-weight');
     const weight = weightField.value;
-    if (weight > 28) {
-        error.textContent = "Вес груза не может превышать 28 тонн";
+    if (weight > 40) {
+        error.textContent = "Вес груза не может превышать 40 тонн";
         weightField.style.borderColor = "#F62933";
         return false;
     } else {
@@ -70,10 +70,7 @@ form.addEventListener("input", (event) => {
 });
 
 const getPrice = async function (weightValue, cityValue) {
-    fetch(`https://localhost:7181/Api/DAL/Requests/GetRequestSum?weight=${weightValue}&city=${cityValue}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' }
-    })
+    fetch(`https://localhost:7181/Api/DAL/Requests/GetRequestSum?weight=${weightValue}&city=${cityValue}`)
         .then(res => res.json())
         .then(response => {
             const price = document.querySelector('.total__price');

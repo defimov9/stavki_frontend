@@ -63,7 +63,7 @@ const renderTable = (page, data) => {
                     <td class="table__content table__content_client">${elem.client.company}</td>
                     <td class="table__content table__content_from">${elem.departureCity}</td>
                     <td class="table__content table__content_to">${elem.arrivalCity}</td>
-                    <td class="table__content table__content_responsible">Янковский А. А</td>
+                    <td class="table__content table__content_responsible">${elem.responsible}.</td>
                 </tr>`
             );
         }
@@ -134,7 +134,7 @@ const renderRequest = (request) => {
     infoFields[5].textContent = request.containerSize + ' футов';
     infoFields[6].textContent = request.cargoWeight + ' т';
     infoFields[7].textContent = request.price  + ' руб.';
-    infoFields[8].textContent = 'Янковский А. А';
+    infoFields[8].textContent = request.responsible + '.';
     infoFields[9].textContent = request.comment;
 };
 
